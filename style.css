@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-size: 1.25rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: bisque;
 }
 
 .title-container {
@@ -196,5 +197,25 @@ slideExpandUp Animation
 
     100% {
         -webkit-transform: translateY(0%) scaleX(1);
+    }
+}
+
+
+@media only screen and (max-width: 790px) {
+    .two-column {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* background-color: pink; */
+    }
+
+    .col-1 {
+        padding: 10px 15px;
+        grid-column: 1/2;
+        /* background-color: aqua; */
+    }
+
+    .col-2 {
+        padding: 10px 15px;
+        grid-column: 1/2;
     }
 }

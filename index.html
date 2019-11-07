@@ -8,7 +8,107 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Tutorial Webpage</h1>
+
+    <header>
+        <div class="title-container">
+            <div class="title">
+                <h1 class="slideExpandUp">
+                    JavaScript
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="navbar-container">
+            <ul class="navbar">
+                <li>Functions</li>
+                <li class="nav-menu"><a href="#objects">Objects</a></li>
+                <li><a href="#arrays">Arrays</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-body">
+        <div class="two-column">
+            <div class="col-1">
+                <h2 id="function">Functions</h2>
+                <p>A function is a subprogram designed to perform a particular task.</p>
+                <ul>
+                    <li>Functions are executed when they are called</li>
+                    <li>Values can be passed into functions and used within the function.</li>
+                    <li>Functions always return a value. If no return value is specified, the function will return
+                        undefined.</li>
+                    <li>Functions are objects.</li>
+                </ul> 
+            </div>
+            <div class="col-2">
+                <h4>example</h4>
+                <ul style="list-style-type:none">
+                    <li>function myFunction (a, b) {</li>
+                    <li style="text-indent: 1.5em">return a * b;</li>
+                    <li>}</li>
+                    <li>var x = myFunction(4, 3);</li>
+                    <li>console.log(x);</li>
+                    <br>
+                    <li>// console result = 12</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="two-column">
+            <div class="col-1">
+                <h2 id="objects">Objects</h2>
+                <p>Objects allow you to store keyed collections of values.</p>
+                <ul>
+                    <li>An unordered collection of related data, of primitive or reference types, in the form of “key:
+                        value” pairs.</li>
+                    <li>These keys can be variables, function,  and are called properties and methods, respectively, in
+                        the context of an object.</li>
+                    <li>Values can be strings, numbers, boolean, arrays, objects, functions.</li>
+                </ul> 
+            </div>
+        
+            <div class="col-2">
+                <h4>example</h4>
+                <ul style="list-style-type:none">
+                    <li>let x = {</li>
+                    <li>weather: 'Rain',</li>
+                    <li>temperature: 54,</li>
+                    <li>outdoorActivities: false</li>
+                    <li>};</li>
+                    <li>console.log(x);</li>
+                    <br>
+                    <li>// console result = Rain</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="two-column">
+            <div class="col-1">
+                <h2 id="arrays">Arrays</h2>
+                <p>An array is a single variable that is used to store different elements.</p>
+                <ul>
+                    <li>An array is an ordered collection of values</li>
+                    <li>each value is called an element</li>
+                    <li>each element has a numeric position in the array, known as its index</li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <h4>example</h4>
+                <ul style="list-style-type:none">
+                    <li>let y = [11, 50, 1, 50];</li>
+                    <br>
+                    <li>console.log(y);</li>
+                    <br>
+                    <li>// console result = 50</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
     
 </body>
 </html>
